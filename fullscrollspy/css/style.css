@@ -1,0 +1,113 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	color: #FFF;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #337ab7;
+}
+
+a:hover {
+	color: #337ab7;
+}
+
+.content {
+	padding: 65px 40px 20px 40px; /* add 45px + 20px nav height mobile */
+	height: 33.333333%; /* 100/number of sections % */
+	width: 100%;
+}
+
+.heading {
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	display: block;
+}
+
+#right-split{
+	height: 100%;
+	background: #000;
+	position: relative;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.row, div[class*='col-'] {
+	height: 100%;
+}
+
+.container-fluid {
+	height: 300%; /* 100*number of sections % */
+}
+
+/* Header */
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	padding: 10px;
+	background-color: #000
+}
+
+header a, header a:hover {
+	text-decoration: none;
+}
+
+.menu-bar {
+	background-color: #000;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+#hero {
+	background: #555;
+	text-align: center;
+	padding-top: 170px;	
+}
+
+#hero.content {
+  height: 100%;
+}
+
+/* Navigation */
+#menu-block {
+	background: #999;
+}
+
+#menu-block.content {
+  height: 100%;
+}
+
+#menu-block ul {
+	padding: 0;
+}
+
+#menu-block a {
+	margin: auto;
+}
+
+#menu-block li {
+	list-style: none;
+}
+
+.affix {
+  top: 0;
+}

@@ -1,0 +1,50 @@
+html,body {
+    height: 100%;
+  }
+
+body{
+    margin: 0;
+    background-color:#207ee9;
+}
+
+header h1{
+    font-variant: small-caps;
+}
+
+section.content {
+    margin-top: 60px;
+}
+
+#hero.content{
+    padding-top: 100px;
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+}
+
+.content{
+    height: 25%;
+    width: 100%;
+}
+
+.container-fluid.all{
+    height: 400%;
+}
+
+.row.spy{
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.brand-logo{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}

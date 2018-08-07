@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Layout with Affix and Scrollspy (100% Height Sections)</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+  <body  data-spy="scroll" data-target="#menu-block" data-offset="50">
+  <!-- HEADER -->
+  <header>
+    <nav class="menu-bar">
+      <div class="pull-left">
+        <a href="#menu-block">MENU</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO IMAGE -->
+  <div id="hero" class="content">
+    <h1>Hero Image 100% Height</h1>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row no-gutter">
+
+      <!-- left -->
+      <!-- NAVIGATION
+           with Bootstrap Affix and Scrollspy
+      -->
+      <div class="col-xs-4" data-spy="affix" data-offset-top="700">
+        <nav id="menu-block" class="content">
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#about-section">About</a></li>
+            <li><a href="#media-section">Media</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /left -->
+
+      <!-- right -->
+      <div class="col-xs-8 pull-right" id="right-split">
+
+        <!-- ABOUT -->
+        <section id="about-section" class="content" style="background-color: green">
+          <h1>About</h1>
+          <p>This height is 100% of window</p>
+        </section>
+
+        <!-- MEDIA-->
+        <section id="media-section" class="content">
+          <h1>Media</h1>
+          <p>This height is 100% of window</p>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact-section" class="content" style="background-color: green">
+          <h1>Contact</h1>
+          <p>This height is 100% of window</p>
+        </section>
+
+      </div>
+      <!-- /right -->
+
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+</body>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+  
+
+</body>
+
+</html>
